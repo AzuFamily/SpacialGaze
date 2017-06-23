@@ -667,12 +667,12 @@ exports.BattleFormatsData = {
 	},
 	mewtwo: {
 		inherit: true,
-		randomBattleMoves: ["softboiled", "calmmind", "psychic", "icebeam", "thunderbolt", "flamethrower", "swordsdance", "shadowball", "earthquake", "focuspunch", "substitute", "taunt", "hypnosis", "toxic", "transform", "roar", "reflect", "counter", "explosion"],
+		randomBattleMoves: ["calmmind", "psychic", "icebeam", "thunderbolt", "flamethrower", "bulkup", "shadowball", "earthquake", "brickbreak", "recover", "taunt", "selfdestruct"],
 		tier: "Uber",
 	},
 	mew: {
 		inherit: true,
-		randomBattleMoves: [],
+		randomBattleMoves: ["softboiled", "calmmind", "psychic", "icebeam", "thunderbolt", "flamethrower", "swordsdance", "shadowball", "earthquake", "focuspunch", "substitute", "taunt", "hypnosis", "toxic", "transform", "roar", "reflect", "counter", "explosion"],
 		tier: "Uber",
 	},
 	chikorita: {

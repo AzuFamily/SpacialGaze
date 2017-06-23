@@ -454,11 +454,20 @@ exports.BattleScripts = {
 	randomTeam: function (side) {
 		let pokemon = [];
 
-		let bannedTiers = {'LC': 1, 'NFE': 1};
 		let pokemonPool = [];
 		for (let id in this.data.FormatsData) {
 			let template = this.getTemplate(id);
-			if (template.gen > 3 || template.isNonstandard || !template.randomBattleMoves || template.tier in bannedTiers || template.species === 'Unown') continue;
+			if (template.gen > 3 || template.isNonstandard || !template.randomBattleMoves || template.species === 'Unown') continue;
+			if (template.evos) {
+				let invalid = false;
+				for (let i = 0; i < template.evos.length; i++) {
+					if (this.getTemplate(template.evos[i]).gen <= 3) {
+						invalid = true;
+						break;
+					}
+				}
+				if (invalid) continue;
+			}
 			pokemonPool.push(id);
 		}
 
