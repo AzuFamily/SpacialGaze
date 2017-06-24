@@ -55,11 +55,7 @@ exports.BattleFormatsData = {
 	},
 	beedrill: {
 		inherit: true,
-<<<<<<< HEAD
-		randomBattleMoves: ["sludgebomb", "hiddenpowerbug", "brickbreak", "doubleedge", "swordsdance", "substitute", "endeavor"],
-=======
 		randomBattleMoves: ["sludgebomb", "hiddenpowerbug", "brickbreak", "doubleedge", "swordsdance", "substitute"],
->>>>>>> 645f2f528fa7c3af085ca533c9e6584f4e3403b2
 		tier: "NU",
 	},
 	pidgey: {
@@ -717,11 +713,7 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	furret: {
-<<<<<<< HEAD
-		randomBattleMoves: ["frustration", "doubleedge", "shadowball", "brickbreak", "hiddenpowerground", "quickattack", "surf", "flamethrower", "trickonlywithcb"],
-=======
 		randomBattleMoves: ["return", "doubleedge", "shadowball", "brickbreak", "hiddenpowerground", "quickattack", "surf", "flamethrower", "trick"],
->>>>>>> 645f2f528fa7c3af085ca533c9e6584f4e3403b2
 		tier: "NU",
 	},
 	hoothoot: {
@@ -1244,11 +1236,7 @@ exports.BattleFormatsData = {
 	},
 	manectric: {
 		inherit: true,
-<<<<<<< HEAD
-		randomBattleMoves: [],
-=======
 		randomBattleMoves: ["thunderbolt", "hiddenpowerice", "crunch", "hiddenpowergrass", "substitute", "thunderwave"],
->>>>>>> 645f2f528fa7c3af085ca533c9e6584f4e3403b2
 		tier: "UU",
 	},
 	plusle: {
@@ -1271,11 +1259,7 @@ exports.BattleFormatsData = {
 	},
 	roselia: {
 		inherit: true,
-<<<<<<< HEAD
-		randomBattleMoves: [],
-=======
 		randomBattleMoves: ["hiddenpowerfire", "gigadrain", "aromatherapy", "leechseed", "synthesis", "spikes"],
->>>>>>> 645f2f528fa7c3af085ca533c9e6584f4e3403b2
 		tier: "NU",
 	},
 	gulpin: {
@@ -1389,11 +1373,7 @@ exports.BattleFormatsData = {
 	},
 	crawdaunt: {
 		inherit: true,
-<<<<<<< HEAD
-		randomBattleMoves: ["surf", "icebeam", "crunch", "knockoff", "swordsdance", "frustration", "hiddenpowerghost"],
-=======
 		randomBattleMoves: ["surf", "icebeam", "crunch", "knockoff", "swordsdance", "return", "hiddenpowerghost"],
->>>>>>> 645f2f528fa7c3af085ca533c9e6584f4e3403b2
 		tier: "NU",
 	},
 	baltoy: {
